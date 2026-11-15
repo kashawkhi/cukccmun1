@@ -39,6 +39,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cinzel.variable} ${inter.variable}`}>
       <body className="flex min-h-screen flex-col antialiased">
+        <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+          <div className="absolute -inset-8 scale-105 bg-[url('/images/bg-silk.jpg')] bg-cover bg-center blur-[6px]" />
+          <div className="absolute inset-0 bg-background/25" />
+        </div>
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
