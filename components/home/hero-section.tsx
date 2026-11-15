@@ -12,16 +12,15 @@ export function HeroSection() {
         aria-hidden="true"
       />
       <div className="relative mx-auto flex min-h-[calc(100svh-4rem)] max-w-5xl flex-col items-center justify-center gap-8 px-6 py-20 text-center">
-        <div className="relative size-40 overflow-hidden rounded-full border-2 border-gold outline outline-1 outline-offset-4 outline-gold/50 md:size-52">
-          <Image
-            src="/images/cukccmun-logo.jpg"
-            alt="CUKCCMUN'27 Second Edition emblem: a globe with the CUK monogram framed by laurel branches"
-            fill
-            priority
-            sizes="208px"
-            className="object-cover"
-          />
-        </div>
+        <Image
+          src="/images/cukccmun-emblem.png"
+          alt="CUKCCMUN'27 Second Edition emblem: a globe with the CUK monogram framed by laurel branches"
+          width={878}
+          height={899}
+          priority
+          sizes="240px"
+          className="h-auto w-44 drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] md:w-60"
+        />
 
         <div className="flex flex-col items-center gap-4">
           <p className="text-xs font-semibold uppercase tracking-[0.4em] text-gold">{site.college} presents</p>

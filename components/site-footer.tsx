@@ -9,9 +9,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-3">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
-            <span className="relative size-14 overflow-hidden rounded-full border border-gold">
-              <Image src="/images/cukccmun-logo.jpg" alt="" fill sizes="56px" className="object-cover" />
-            </span>
+            <Image src="/images/cukccmun-emblem.png" alt="" width={878} height={899} sizes="56px" className="h-14 w-auto" />
             <span className="font-serif text-xl font-semibold tracking-wider text-gold">{site.name}</span>
           </div>
           <p className="text-sm leading-relaxed text-muted-foreground">

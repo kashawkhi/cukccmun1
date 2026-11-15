@@ -16,9 +16,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-gold/60 bg-card/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="relative size-10 overflow-hidden rounded-full border border-gold">
-            <Image src="/images/cukccmun-logo.jpg" alt="" fill sizes="40px" className="object-cover" />
-          </span>
+          <Image src="/images/cukccmun-emblem.png" alt="" width={878} height={899} sizes="40px" className="h-10 w-auto" />
           <span className="font-serif text-lg font-semibold tracking-wider text-gold">{site.name}</span>
         </Link>
 
