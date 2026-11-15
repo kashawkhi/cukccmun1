@@ -22,7 +22,7 @@ export function SectionHeading({ eyebrow, title, as: Tag = 'h2' }: { eyebrow?: s
 
 export function GoldCard({ className, children }: { className?: string; children: React.ReactNode }) {
   return (
-    <div className={cn('relative rounded-md border border-gold bg-card p-6 outline outline-1 outline-offset-4 outline-gold/40', className)}>
+    <div className={cn('cream-surface relative rounded-md border p-6 outline outline-1 outline-offset-4', className)}>
       {children}
     </div>
   )

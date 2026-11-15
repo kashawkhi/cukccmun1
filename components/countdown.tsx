@@ -29,7 +29,7 @@ export function Countdown({ date }: { date: string }) {
       {Object.entries(units).map(([label, value]) => (
         <div
           key={label}
-          className="flex min-w-16 flex-col items-center rounded-md border border-gold bg-card/80 px-2 py-3 outline outline-1 outline-offset-2 outline-gold/40 sm:min-w-24 sm:px-4 sm:py-4"
+          className="flex min-w-16 flex-col items-center cream-surface rounded-md border px-2 py-3 outline outline-1 outline-offset-2 sm:min-w-24 sm:px-4 sm:py-4"
         >
           <span className="font-serif text-2xl font-semibold tabular-nums text-gold sm:text-4xl">
             {remaining ? String(value).padStart(2, '0') : '--'}

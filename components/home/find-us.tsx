@@ -11,7 +11,7 @@ export function FindUs() {
           <div
             role="img"
             aria-label="Map placeholder. The venue map has not been set yet."
-            className="relative flex aspect-video items-center justify-center overflow-hidden rounded-md border-2 border-gold bg-card outline outline-1 outline-offset-4 outline-gold/50 md:col-span-3 md:aspect-auto md:min-h-80"
+            className="relative flex aspect-video items-center justify-center overflow-hidden cream-surface rounded-md border-2 outline outline-1 outline-offset-4 md:col-span-3 md:aspect-auto md:min-h-80"
           >
             <div
               className="absolute inset-0 opacity-20"
