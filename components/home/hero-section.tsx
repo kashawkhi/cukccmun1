@@ -19,7 +19,7 @@ export function HeroSection() {
             fill
             priority
             sizes="208px"
-            className="scale-[1.65] object-cover"
+            className="scale-110 object-cover"
           />
         </div>
 
