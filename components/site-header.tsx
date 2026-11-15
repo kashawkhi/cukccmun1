@@ -17,7 +17,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <span className="relative size-10 overflow-hidden rounded-full border border-gold">
-            <Image src="/images/cukccmun-logo.png" alt="" fill sizes="40px" className="object-cover" />
+            <Image src="/images/cukccmun-logo.jpg" alt="" fill sizes="40px" className="object-cover" />
           </span>
           <span className="font-serif text-lg font-semibold tracking-wider text-gold">{site.name}</span>
         </Link>

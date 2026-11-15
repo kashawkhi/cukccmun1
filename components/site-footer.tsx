@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
             <span className="relative size-14 overflow-hidden rounded-full border border-gold">
-              <Image src="/images/cukccmun-logo.png" alt="" fill sizes="56px" className="object-cover" />
+              <Image src="/images/cukccmun-logo.jpg" alt="" fill sizes="56px" className="object-cover" />
             </span>
             <span className="font-serif text-xl font-semibold tracking-wider text-gold">{site.name}</span>
           </div>

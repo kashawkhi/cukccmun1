@@ -14,12 +14,12 @@ export function HeroSection() {
       <div className="relative mx-auto flex min-h-[calc(100svh-4rem)] max-w-5xl flex-col items-center justify-center gap-8 px-6 py-20 text-center">
         <div className="relative size-40 overflow-hidden rounded-full border-2 border-gold outline outline-1 outline-offset-4 outline-gold/50 md:size-52">
           <Image
-            src="/images/cukccmun-logo.png"
-            alt="CUKCCMUN 2027 emblem: a golden globe framed by olive branches"
+            src="/images/cukccmun-logo.jpg"
+            alt="CUKCCMUN'27 Second Edition emblem: a globe with the CUK monogram framed by laurel branches"
             fill
             priority
             sizes="208px"
-            className="scale-110 object-cover"
+            className="object-cover"
           />
         </div>
 
